@@ -43,7 +43,7 @@ namespace ConsumeWebApi
         }
 
         //CREATE
-        private async Task AddProduct()
+        private async Task AddPerson()
         {
             PersonDto p = new PersonDto();
        
@@ -60,7 +60,7 @@ namespace ConsumeWebApi
         }
 
         //UPDATE
-        private async Task UpdateProduct()
+        private async Task UpdatePerson()
         {
             PersonDto p = new PersonDto();
             //add an id for update here
@@ -77,7 +77,7 @@ namespace ConsumeWebApi
         }
 
 
-        private async Task DeleteProduct()
+        private async Task DeletePerson()
         {
             using (var client = new HttpClient())
             {
